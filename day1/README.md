@@ -223,7 +223,7 @@ keys.forEach((key) => key.addEventListener("transitionend", removeTransition));
 
 4. 마지막으로, 효과가 적용된 버튼을 원상태로 되돌려야 한다. `transitionend` 이벤트는 CSS의 transition이 완료된 시점에 실행되는데, key라는 class를 가진 모든 element에서 playing이라는 클래스를 삭제하도록 한다.
 
-## 🚀TIL(Toda I Learned)
+## 🚀TIL(Today I Learned)
 
 - 무언가를 만들어보는건 생각보다 훨씬 어려웠다.
 - 강의를 들으면서도 왜 저렇게 되는지 모를 때는 MDN을 활용하거나 구글링을 적극 활용해야했다.
