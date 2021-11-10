@@ -1,6 +1,6 @@
 html {
   font-size: 10px;
-  background: url("./images/background.jpg") bottom center;
+  background: url("./images/background.jpg") center;
   background-size: cover;
 }
 
@@ -13,10 +13,15 @@ html {
 
 .keys {
   display: flex;
-  flex: 1;
+  flex-direction: column;
   min-height: 100vh;
   align-items: center;
   justify-content: center;
+}
+
+.up-key,
+.down-key {
+  display: flex;
 }
 
 .key {
@@ -31,6 +36,14 @@ html {
   color: white;
   background: rgba(0, 0, 0, 0.4);
   text-shadow: 0 0 0.5rem black;
+}
+
+.up-key .key:nth-child(4) {
+  margin-right: 25rem;
+}
+
+.down-key .key:nth-child(4) {
+  margin-right: 10rem;
 }
 
 .playing {

@@ -2,58 +2,97 @@
 <html lang="en">
   <head>
     <meta charset="UTF-8" />
-    <title>JS Drum Kit</title>
+    <title>JS Guitar Kit</title>
     <link rel="stylesheet" href="style.css" />
   </head>
   <body>
     <div class="keys">
-      <div data-key="65" class="key">
-        <kbd>A</kbd>
-        <span class="sound">clap</span>
+      <div class="up-key">
+        <div data-key="q" class="key">
+          <kbd>Q</kbd>
+          <span class="sound">A2A3</span>
+        </div>
+        <div data-key="w" class="key">
+          <kbd>W</kbd>
+          <span class="sound">A3</span>
+        </div>
+        <div data-key="e" class="key">
+          <kbd>E</kbd>
+          <span class="sound">B2</span>
+        </div>
+        <div data-key="r" class="key">
+          <kbd>R</kbd>
+          <span class="sound">B3</span>
+        </div>
+        <div data-key="u" class="key">
+          <kbd>U</kbd>
+          <span class="sound">B3B4</span>
+        </div>
+        <div data-key="i" class="key">
+          <kbd>I</kbd>
+          <span class="sound">B4</span>
+        </div>
+        <div data-key="o" class="key">
+          <kbd>O</kbd>
+          <span class="sound">C#3</span>
+        </div>
+        <div data-key="p" class="key">
+          <kbd>P</kbd>
+          <span class="sound">C#3C#4</span>
+        </div>
       </div>
-      <div data-key="83" class="key">
-        <kbd>S</kbd>
-        <span class="sound">hihat</span>
-      </div>
-      <div data-key="68" class="key">
-        <kbd>D</kbd>
-        <span class="sound">kick</span>
-      </div>
-      <div data-key="70" class="key">
-        <kbd>F</kbd>
-        <span class="sound">openhat</span>
-      </div>
-      <div data-key="71" class="key">
-        <kbd>G</kbd>
-        <span class="sound">boom</span>
-      </div>
-      <div data-key="72" class="key">
-        <kbd>H</kbd>
-        <span class="sound">ride</span>
-      </div>
-      <div data-key="74" class="key">
-        <kbd>J</kbd>
-        <span class="sound">snare</span>
-      </div>
-      <div data-key="75" class="key">
-        <kbd>K</kbd>
-        <span class="sound">tom</span>
-      </div>
-      <div data-key="76" class="key">
-        <kbd>L</kbd>
-        <span class="sound">tink</span>
+      <div class="down-key">
+        <div data-key="a" class="key">
+          <kbd>A</kbd>
+          <span class="sound">C#4</span>
+        </div>
+        <div data-key="s" class="key">
+          <kbd>S</kbd>
+          <span class="sound">D#4</span>
+        </div>
+        <div data-key="d" class="key">
+          <kbd>D</kbd>
+          <span class="sound">D3</span>
+        </div>
+        <div data-key="f" class="key">
+          <kbd>F</kbd>
+          <span class="sound">D5</span>
+        </div>
+        <div data-key="j" class="key">
+          <kbd>J</kbd>
+          <span class="sound">E2</span>
+        </div>
+        <div data-key="k" class="key">
+          <kbd>K</kbd>
+          <span class="sound">E4</span>
+        </div>
+        <div data-key="l" class="key">
+          <kbd>L</kbd>
+          <span class="sound">F2</span>
+        </div>
+        <div data-key=";" class="key">
+          <kbd>:</kbd>
+          <span class="sound">F2F3</span>
+        </div>
       </div>
     </div>
 
-    <audio data-key="65" src="./sounds/clap.wav"></audio>
-    <audio data-key="83" src="./sounds/hihat.wav"></audio>
-    <audio data-key="68" src="./sounds/kick.wav"></audio>
-    <audio data-key="70" src="./sounds/openhat.wav"></audio>
-    <audio data-key="71" src="./sounds/boom.wav"></audio>
-    <audio data-key="72" src="./sounds/ride.wav"></audio>
-    <audio data-key="74" src="./sounds/snare.wav"></audio>
-    <audio data-key="75" src="./sounds/tom.wav"></audio>
-    <audio data-key="76" src="./sounds/tink.wav"></audio>
+    <audio data-key="q" src="./sounds/A2A3.wav"></audio>
+    <audio data-key="w" src="./sounds/A3.wav"></audio>
+    <audio data-key="e" src="./sounds/B2.wav"></audio>
+    <audio data-key="r" src="./sounds/B3.wav"></audio>
+    <audio data-key="u" src="./sounds/B3B4.wav"></audio>
+    <audio data-key="i" src="./sounds/B4.wav"></audio>
+    <audio data-key="o" src="./sounds/C_3.wav"></audio>
+    <audio data-key="p" src="./sounds/C_3C_4.wav"></audio>
+    <audio data-key="a" src="./sounds/C_4.wav"></audio>
+    <audio data-key="s" src="./sounds/D_4.wav"></audio>
+    <audio data-key="d" src="./sounds/D3.wav"></audio>
+    <audio data-key="f" src="./sounds/D5.wav"></audio>
+    <audio data-key="j" src="./sounds/E2.wav"></audio>
+    <audio data-key="k" src="./sounds/E4.wav"></audio>
+    <audio data-key="l" src="./sounds/F2.wav"></audio>
+    <audio data-key=";" src="./sounds/F2F3.wav"></audio>
 
     <script src="main.js"></script>
   </body>
