@@ -1,18 +1,44 @@
+:root {
+  --base: #364f6b;
+  --spacing: 10px;
+  --blur: 10px;
+}
+
+img {
+  width: 20rem;
+  padding: var(--spacing);
+  background: var(--base);
+  filter: blur(var(--blur));
+}
+
+h1 {
+  color: #364f6b;
+}
+
+.point {
+  color: var(--base);
+}
+
 /* misc styles, nothing to do with CSS variables */
 
 body {
   text-align: center;
-  background: #193549;
-  color: white;
+  background: no-repeat
+    linear-gradient(45deg, #e3fdfd 0%, #cbf1f5 33%, #a6e3e9 66%, #71c9ce 100%);
+  background-size: auto 150%;
+  background-position: center center;
   font-family: "helvetica neue", sans-serif;
-  font-weight: 100;
-  font-size: 50px;
 }
 
 .controls {
+  display: flex;
+  font-weight: 600;
   margin-bottom: 50px;
+  align-items: center;
+  justify-content: center;
 }
 
-input {
-  width: 100px;
+.controls label,
+.controls input {
+  margin-right: 1rem;
 }
