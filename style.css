@@ -40,6 +40,7 @@ section {
 article {
   display: flex;
   flex-direction: column;
+  justify-content: space-around;
   width: 300px;
   margin: 20px;
 }
@@ -64,11 +65,13 @@ article img {
 .project-title {
   margin-top: 12px;
   margin-bottom: 10px;
+  text-align: center;
 }
 
 .explain {
   margin: 0;
   margin-bottom: 14px;
+  text-align: center;
 }
 
 footer {
