@@ -1,6 +1,12 @@
 html {
   box-sizing: border-box;
-  background: #ffc600;
+  background: linear-gradient(
+    90deg,
+    #98ddca 0%,
+    #d5ecc2 33%,
+    #ffd3b4 66%,
+    #ffaaa7 100%
+  );
   font-family: "helvetica neue";
   font-size: 20px;
   font-weight: 200;
@@ -72,5 +78,5 @@ span.population {
 }
 
 .hl {
-  background: #ffc600;
+  background: #87aaaa;
 }
