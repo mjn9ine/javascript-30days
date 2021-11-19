@@ -15,6 +15,7 @@ p {
 }
 
 body {
+  background: linear-gradient(90deg, #f4eeff 0%, #dcd6f7 33%, #a6b1e1 66%);
   display: flex;
   flex-direction: column;
   align-items: center;
