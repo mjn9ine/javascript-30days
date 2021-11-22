@@ -1,4 +1,33 @@
 html,
 body {
   margin: 0;
+  height: 100vh;
+}
+
+body {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background: linear-gradient(
+    270deg,
+    #f0e9d2 0%,
+    #e6ddc4 33%,
+    #678983 66%,
+    #181d31 100%
+  );
+}
+
+#draw {
+  background-color: white;
+}
+
+.mode {
+  margin-top: 5%;
+  font-size: 2rem;
+  font-weight: 700;
+  font-style: italic;
+  text-decoration: underline;
+  color: #7b113a;
+  font-family: sans-serif;
 }
