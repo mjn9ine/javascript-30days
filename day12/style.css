@@ -1,0 +1,42 @@
+body {
+  margin: 0;
+  padding: 0;
+  width: 100vw;
+  height: 100vh;
+  background: linear-gradient(
+    135deg,
+    #f0e9d2 0%,
+    #e6ddc4 20%,
+    #678983 60%,
+    #181d31 100%
+  );
+  background-size: cover;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.pressedBox {
+  width: inherit;
+  display: flex;
+  justify-content: center;
+}
+
+.pressedBox__key {
+  width: 8rem;
+  height: 8rem;
+  font-size: 3rem;
+  background: rgba(255, 255, 240, 0.274);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.pressedBox__key:first-child {
+  opacity: 0.3;
+}
+
+.cong {
+  transition: all 0.1s ease;
+  transform: scale(1.5);
+}
